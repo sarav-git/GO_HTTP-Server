@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -i -b ~/Download/cookie.txt -c ~/Download/cookie.txt  -v -d '{"userId":1,"id":101,"title":"\"This is title\"","body":"\"Waste body\"","height":4.5}' http://localhost:8081/posts/
